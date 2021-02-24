@@ -44,7 +44,7 @@ class TodoList extends Component {
 
     render() {
         return (
-            <div class="row h-100 justify-content-center">
+            <div class="row h-100 justify-content-center" style={{margin: "100px"}}>
                 <Card >
                     <Card.Body>
                         <Form onSubmit={this.addItem}>

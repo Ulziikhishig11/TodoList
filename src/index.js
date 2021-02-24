@@ -1,14 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Login from './Login';
-import TodoList from './TodoList';
-import "bootstrap/dist/css/bootstrap.min.css"
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Login/>
-    <TodoList/>
-  </React.StrictMode>,
-  document.getElementById('root')
-); 
-
+	<React.StrictMode>
+		<App />,
+	</React.StrictMode>,
+	document.getElementById("root")
+);
